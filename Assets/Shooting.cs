@@ -25,7 +25,7 @@ public class Shooting : MonoBehaviour
 
 
 
-            GameObject bulletClone = Instantiate(bulletPrefab, spawnPosition.position, spawnPosition.rotation);
+            GameObject bulletClone =  Instantiate(bulletPrefab, spawnPosition.position, spawnPosition.rotation);
             Rigidbody rb = bulletClone.GetComponent<Rigidbody>();
             rb.AddRelativeForce(Vector3.up * bulletForce, ForceMode.Impulse);
 

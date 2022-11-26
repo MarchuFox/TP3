@@ -193,7 +193,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!82 &8200000
 AudioSource:
@@ -298,6 +298,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 400000}
     m_Modifications:
+    - target: {fileID: 2721283192695895866, guid: 64e705852dc6569498deb9ec95d5d110, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0000038046326
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721283192695895866, guid: 64e705852dc6569498deb9ec95d5d110, type: 3}
+      propertyPath: m_Center.y
+      value: 0.99999404
+      objectReference: {fileID: 0}
+    - target: {fileID: 2721283192695895866, guid: 64e705852dc6569498deb9ec95d5d110, type: 3}
+      propertyPath: m_Center.z
+      value: -0.06238731
+      objectReference: {fileID: 0}
     - target: {fileID: 3330983935144763154, guid: 64e705852dc6569498deb9ec95d5d110, type: 3}
       propertyPath: m_Name
       value: Weapon
@@ -407,6 +419,10 @@ PrefabInstance:
     - target: {fileID: 5823024613519485826, guid: 50f6ca62dbea07b46a867be7842e5b98, type: 3}
       propertyPath: m_Name
       value: FirstPersonCharacter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5823024613519485826, guid: 50f6ca62dbea07b46a867be7842e5b98, type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50f6ca62dbea07b46a867be7842e5b98, type: 3}

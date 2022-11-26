@@ -1,24 +1,14 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
     private void OnCollisionEnter(Collision collision)
 
     {
@@ -43,18 +33,10 @@ public class Enemy : MonoBehaviour
             SceneManager.LoadScene(2);
         }
 
-        if (collision.gameObject.CompareTag("Item"))
-        {
-            Destroy(collision.gameObject);
-            {
-                SceneManager.LoadScene(3);
-            }
-
-        }
-
-        
-
+      
         
     }
+    
+    
 }
 
